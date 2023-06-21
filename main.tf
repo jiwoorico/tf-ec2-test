@@ -5,7 +5,7 @@ module "vpc" {
 
 
 module "ec2_instance" {
-  source  = "git::git@github.com:jiwoorico/tf-module-ec2.git//?ref=v4.4.0"
+  source  = "git::git@github.com:jiwoorico/tf-module-ec2.git//?ref=v5.1.0"
 
   name = "single-instance"
 
